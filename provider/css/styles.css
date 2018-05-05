@@ -1,3 +1,16 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #E0E0E0;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #E0E0E0;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #E0E0E0;
+}
+
 input[type=text]{
     margin: 0 !important;
     -webkit-transition: background 0.5s !important; /* Safari */
@@ -37,11 +50,14 @@ input[type=text]:focus{
 }
 
 .search-bar .input-field input[type=text]{
+    padding-left: 8px;
     position: relative;
     top: -9px;
 }
 
 .search-bar a i{
+    position: relative;
+    left: -2px;
     line-height: 46px;
     color: #dbdbdb;
 }
