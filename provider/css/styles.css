@@ -11,20 +11,21 @@
     color: #E0E0E0;
 }
 
-.card-content{
-    padding-top: 16px !important;
-    padding-bottom: 16px !important;
-}
-
-.card-title{
-    padding-top: 8px !important;
+aside .collapsible-body{
+    padding-top: 0 !important;
     padding-bottom: 0 !important;
-    width: 100% !important;
-    /*color: black !important;*/
 }
 
-.card-content, .card-title{
-    background-color: rgba(0,0,0,0.3);
+aside a{
+    color: #212121;
+    display: block;
+    padding-left: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+aside a:hover{
+    background-color: #EEEEEE;
 }
 
 input[type=text]{
@@ -39,8 +40,36 @@ input[type=text]:focus{
     background-color: white;
 }
 
+.card-content{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.card-title{
+    padding-top: 8px !important;
+    padding-bottom: 0 !important;
+    width: 100% !important;
+}
+
+.card-content, .card-title{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.collapsible-body{
+    padding: 0 !important;
+}
+
+.collapsible-body ul li{
+    border-bottom: 1px solid #E0E0E0;
+}
+
 .nav-wrapper ul{
     width: 85%;
+}
+
+.page-footer .container p{
+    margin: 0;
+    padding-bottom: 20px;
 }
 
 .search-bar{
