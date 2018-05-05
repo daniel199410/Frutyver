@@ -28,6 +28,34 @@ aside a:hover{
     background-color: #EEEEEE;
 }
 
+.add-field{
+    margin: 0 !important;
+}
+
+.add-field input[type=text]{
+    border-bottom: none !important;
+}
+
+.add-field input[type=text]::placeholder{
+    color: #9E9E9E;
+}
+
+.add-field-card{
+    margin-top: 24px;
+}
+
+.add-field-collapsible{
+    display: none;
+}
+
+.add-field a{
+    margin-bottom: 8px !important;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
 input[type=text]{
     margin: 0 !important;
     -webkit-transition: background 0.5s !important; /* Safari */
