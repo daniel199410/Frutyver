@@ -79,7 +79,7 @@ input[type=text]:focus{
     width: 100% !important;
 }
 
-.card-content, .card-title{
+.product-card .card-content, .product-card .card-title{
     background-color: rgba(0,0,0,0.3);
 }
 
