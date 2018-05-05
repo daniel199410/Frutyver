@@ -11,6 +11,22 @@
     color: #E0E0E0;
 }
 
+.card-content{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.card-title{
+    padding-top: 8px !important;
+    padding-bottom: 0 !important;
+    width: 100% !important;
+    /*color: black !important;*/
+}
+
+.card-content, .card-title{
+    background-color: rgba(0,0,0,0.3);
+}
+
 input[type=text]{
     margin: 0 !important;
     -webkit-transition: background 0.5s !important; /* Safari */
@@ -28,7 +44,7 @@ input[type=text]:focus{
 }
 
 .search-bar{
-    width: 59%;
+    width: 58%;
     margin-right: 11px;
 }
 
@@ -53,6 +69,7 @@ input[type=text]:focus{
     padding-left: 8px;
     position: relative;
     top: -9px;
+    width: 98% !important;
 }
 
 .search-bar a i{
