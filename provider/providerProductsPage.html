@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Mis productos</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="navbar-fixed">
+            <nav class="green">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo">FrutyVer</a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li class="search-bar row">
+                                <a href="" class="col s1"><i class="material-icons">search</i></a>
+                                <div class="input-field col s11">
+                                    <input type="text" placeholder="Buscar productos">
+                                </div>
+                            </li>
+                            <li class="active"><a href="#home">Mis productos</a></li>
+                            <li><a href="#gallery">Pedidos</a></li>
+                            <li><a href="#popular">Contabilidad</a></li>                        
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="#home">Mis productos</a></li>
+            <li><a href="#gallery">Pedidos</a></li>
+            <li><a href="#popular">Contabilidad</a></li>   
+        </ul>
+        <script src="../materialize/js/materialize.min.js"></script>
+        <script src="js/init.js"></script>
+    </body>
+</html>
