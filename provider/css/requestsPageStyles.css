@@ -1,3 +1,53 @@
+.bill-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.bill-wrapper p{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+.calendar-body tr{
+    border: none;
+}
+
+.calendar-body td, .calendar-body th{
+    text-align: center;
+}
+
+.calendar-body TH{
+    color: #757575;
+}
+
+.date{
+    min-height: 365.63px !important;
+}
+
+.date h3{
+    font-size: 2.1rem;
+    margin-top: 24px !important;
+}
+
+.date h4{
+    font-size: 2rem;
+    margin-top: 16px !important;
+}
+
+.date h5{
+    margin-top: 8px !important;
+}
+
+.dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8%;
+    left: 43%;
+}
+
 .icon{
     height: 64px;
     line-height: 85px;
@@ -9,4 +59,42 @@
 
 .icon i{
     font-size: 2.1em;
+}
+
+.month-change{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .76rem !important;
+}
+
+.month-change i{
+    color: #212121;
+}
+
+.month-change p{
+    margin: 0 !important;
+}
+
+.orders .collapsible{
+    margin-top: 0 !important;
+}
+
+.orders h1{
+    font-size: 2.2rem !important;
+    margin-top: 0 !important;
+}
+
+.orders-header{
+    border-radius: 5px 5px 0 0;
+    padding: 8px;
+}
+
+.orders-header h1{    
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 768px){
+    .date{
+        height: 365.63px !important;
+    }
 }

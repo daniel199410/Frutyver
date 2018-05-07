@@ -100,6 +100,10 @@ input[type=text]:focus{
     padding-bottom: 20px;
 }
 
+.relative{
+    position: relative;
+}
+
 .search-bar{
     width: 58%;
     margin-right: 11px;
@@ -134,4 +138,57 @@ input[type=text]:focus{
     left: -2px;
     line-height: 46px;
     color: #dbdbdb;
+}
+
+.submenu a{
+    padding-left: 56px !important;
+}
+
+@media screen and (max-width: 1024px){
+    .search-bar{
+        margin-left: 14px;
+        width: 44%;
+    }
+
+    .search-bar a i {
+        left: -9px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .date h3 {
+        font-size: 1.9rem !important;
+    }
+
+    .card-image img{
+        height: 150px;
+        width: auto !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .add-field-card{
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+        width: 94% !important;
+    }
+
+    .container{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .date h3 {
+        font-size: 1.5rem !important;
+    }
+
+    .date h4 {
+        font-size: 1.3rem !important;
+    }
+
+    .date h5{
+        font-size: 1.4rem !important;
+    }
 }
