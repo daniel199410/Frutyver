@@ -1,3 +1,10 @@
 #search{
-  width: 30%;
+  height: 1em;
+}
+
+.barra{
+  margin-top: 1em;
+}
+.btn{
+  padding: 0 8px;
 }
