@@ -1,0 +1,29 @@
+.img-container{
+    overflow: hidden;
+    padding: 0 !important;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.resume-table-container{
+    background-color: #FAFAFA;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.resume-table h2{
+    font-size: 2.5rem;
+    margin-top: 16px !important;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width:425px){
+    .container{
+        width: 100% !important;
+    }
+    .row{
+        margin-bottom: 0 !important;
+    }
+}
