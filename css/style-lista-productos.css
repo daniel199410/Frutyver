@@ -3,6 +3,10 @@
   margin-right: 2%;
 }
 
-#cantidad{
+#cantidad, #search{
   height: 1em;
+}
+
+#mobile-demo{
+  top: auto;
 }
