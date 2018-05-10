@@ -15,10 +15,18 @@
     <div class="navbar-fixed">
   		<nav>
   		<div class="nav-wrapper green">
-  			<a href="lista-proveedores.html" class="brand-logo">Logo</a>
+  			<a href="lista-proveedores.html" class="brand-logo">FrutyVer</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right">
+  				<li class="hide-on-med-and-down"><a href="historial-pedidos.html">Mis pedidos</a></li>
+  			</ul>
   		</div>
   	</nav>
   	</div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#">Proveedores</a></li>
+    	<li><a href="historial-pedidos.html">Mis pedidos</a></li>
+    </ul>
     <div class="row container">
       <h3>Carrito de compras</h3>
       <div class="col l4">
@@ -115,5 +123,12 @@
         </div>
       </div>
     </div>
+    <footer class="page-footer green">
+        <div class="container">
+            <p class="center-align">&copy; 2018 FrutyVer</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  	<script type="text/javascript" src="js/Sidenav.js"></script>
   </body>
 </html>

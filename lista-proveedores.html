@@ -14,11 +14,20 @@
   <body>
     <div class="navbar-fixed">
   		<nav>
-  		<div class="nav-wrapper green">
-  			<a href="#" class="brand-logo">Logo</a>
-  		</div>
-  	</nav>
+    		<div class="nav-wrapper green">
+    			<a href="#" class="brand-logo">FrutyVer</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right">
+    				<li class="hide-on-med-and-down"><a href="historial-pedidos.html">Mis pedidos</a></li>
+            <li> <a href="carro-compras.html"><i class="large material-icons">local_grocery_store</i></a></li>
+    			</ul>
+    		</div>
+  	   </nav>
   	</div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#">Proveedores</a></li>
+    	<li><a href="historial-pedidos.html">Mis pedidos</a></li>
+    </ul>
     <div class="row container">
       <div class="col l3 s12">
         <ul class="collapsible" data-collapsible = "accordion">
@@ -148,9 +157,12 @@
       </div>
     </div>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/Sidenav.js"></script>
   	<script type="text/javascript" src="js/Collapsible.js"></script>
-    <footer>
-      holaaaa
+    <footer class="page-footer green">
+        <div class="container">
+            <p class="center-align">&copy; 2018 FrutyVer</p>
+        </div>
     </footer>
   </body>
 </html>
