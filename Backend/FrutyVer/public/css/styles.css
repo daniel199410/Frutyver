@@ -1,0 +1,194 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #E0E0E0;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #E0E0E0;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #E0E0E0;
+}
+
+aside .collapsible-body{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+aside a{
+    color: #212121;
+    display: block;
+    padding-left: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+aside a:hover{
+    background-color: #EEEEEE;
+}
+
+.add-field{
+    margin: 0 !important;
+}
+
+.add-field input[type=text]{
+    border-bottom: none !important;
+}
+
+.add-field input[type=text]::placeholder{
+    color: #9E9E9E;
+}
+
+.add-field-card{
+    margin-top: 24px;
+}
+
+.add-field-collapsible{
+    display: none;
+}
+
+.add-field a{
+    margin-bottom: 8px !important;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+input[type=text]{
+    margin: 0 !important;
+    -webkit-transition: background 0.5s !important; /* Safari */
+    transition: background 0.5s !important;
+}
+
+input[type=text]:focus{
+    border-bottom: none !important;
+    box-shadow: none !important;    
+    background-color: white;
+}
+
+.card-content{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.card-title{
+    padding-top: 8px !important;
+    padding-bottom: 0 !important;
+    width: 100% !important;
+}
+
+.product-card .card-content, .product-card .card-title{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.collapsible-body{
+    padding: 0 !important;
+}
+
+.collapsible-body ul li{
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.nav-wrapper ul{
+    width: 85%;
+}
+
+.page-footer .container p{
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.relative{
+    position: relative;
+}
+
+.search-bar{
+    width: 58%;
+    margin-right: 11px;
+}
+
+.search-bar .input-field, .search-bar a{
+    background: rgba(0,0,0,0.04);
+    height: 45px !important;
+    margin-top: 9.5px !important;
+    margin-right: 0 !important;
+}
+
+.search-bar a{
+    border-radius: 5px 0 0 5px;
+    margin-right: 0 !important;
+}
+
+.search-bar .input-field{
+    border-radius: 0 5px 5px 0;
+    padding: 0 !important;
+}
+
+.search-bar .input-field input[type=text]{
+    padding-left: 8px;
+    position: relative;
+    top: -9px;
+    width: 98% !important;
+}
+
+.search-bar a i{
+    position: relative;
+    left: -2px;
+    line-height: 46px;
+    color: #dbdbdb;
+}
+
+.submenu a{
+    padding-left: 56px !important;
+}
+
+@media screen and (max-width: 1024px){
+    .search-bar{
+        margin-left: 14px;
+        width: 44%;
+    }
+
+    .search-bar a i {
+        left: -9px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .date h3 {
+        font-size: 1.9rem !important;
+    }
+
+    .card-image img{
+        height: 150px;
+        width: auto !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .add-field-card{
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+        width: 94% !important;
+    }
+
+    .container{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .date h3 {
+        font-size: 1.5rem !important;
+    }
+
+    .date h4 {
+        font-size: 1.3rem !important;
+    }
+
+    .date h5{
+        font-size: 1.4rem !important;
+    }
+}

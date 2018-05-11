@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('products', function () {
+    return view('provider/providerProductsPage');
+});
+
+Route::get('orders', function () {
+    return view('provider/providerOrdersPage');
+});
+
+Route::get('stats', function () {
+    return view('provider/providerStatsPage');
 });

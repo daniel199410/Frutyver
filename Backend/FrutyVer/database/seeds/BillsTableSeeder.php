@@ -11,8 +11,6 @@ class BillsTableSeeder extends Seeder
      */
     public function run()
     {
-        $state = ['pending', 'dispatched', 'refused'];
-        $id = [2, 3, 4, 5, 6, 7, 8, 9, 10];
         for($i = 0; $i < 20; $i++){
             DB::table('bills')->insert([
                 'amount' => rand(1, 100),
